@@ -3,29 +3,29 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || "923184070915"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://salman:s4salmanyt@cluster0.frtg3vx.mongodb.net/?retryWrites=true&w=majority"
+global.owner = process.env.OWNER_NUMBER || "917000562148"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://memernobita:nobita69@cluster0.mxju9ch.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp"
 global.port= process.env.PORT || 5000
-global.email = 'xheikhsalman4422@gmail.com'
-global.github = 'https://github.com/salmanytofficial/XLICON-MD'
+global.email = 'nobi-2@outlook.com'
+global.github = 'https://github.com/nobi-2'
 global.location = 'Lahore Pak'
-global.gurl = 'https://instagram.com/itz_shaikho/' // add your username
-global.sudo = process.env.SUDO || '923184070915' 
-global.devs = '923184070915';
-global.website = 'https://github.com/salmanytofficial/XLICON-MD' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3c341828d86ee7a89c73f.jpg'
+global.gurl = 'https://instagram.com/itz_nobita_18/' // add your username
+global.sudo = process.env.SUDO || '919174493135' 
+global.devs = '917000562148';
+global.website = 'https://wa.nobiitaa.repl.co/' //wa.me/+917000562148?text=Hii+Nobi
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/wV3UES3.jpeg' 
 module.exports = {
   sessionName:  process.env.SESSION_ID ||  " ",  //PUT Session Id Here, 
-  author:  process.env.PACK_AUTHER ||  'XLICON BOT',
-  packname:  process.env.PACK_NAME || 'MADE BY SALMAN AHMAD',
+  author:  process.env.PACK_AUTHER ||  'ɳσႦιƚα🖤',
+  packname:  process.env.PACK_NAME || 'ɳσႦι🐈‍⬛',
    
-  botname:   process.env.BOT_NAME === undefined ? "Xlicon-Md" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'salmanytofficial' : process.env.OWNER_NAME,  
+  botname:   process.env.BOT_NAME === undefined ? "ɳσႦιƚα🐈‍⬛" : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'ɳσႦιƚα🐈‍⬛' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
-  antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '971' : process.env.FAKE_COUNTRY_CODE,
+  antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '1' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
   HANDLERS:  process.env.PREFIX === undefined ? '.' : process.env.PREFIX,
